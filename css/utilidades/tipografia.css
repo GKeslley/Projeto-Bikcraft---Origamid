@@ -1,0 +1,54 @@
+.titulo-principal {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+.titulo-sub {
+  font: 600 3.5rem/1.125 "Poppins", sans-serif;
+}
+.titulo-medio {
+  font: 600 1.4rem/1.125 "Poppins", sans-serif;
+}
+.texto-medio-400 {
+  font: 400 1.4rem/1.5 "Roboto", Arial, sans-serif;
+}
+.texto-p {
+  font: 400 1.2rem/1.5 "Roboto", Arial, sans-serif;
+}
+.texto-p2 {
+  font: 400 1.5rem/1.25 "Poppins", Arial, sans-serif;
+}
+.texto-p3 {
+  font: 400 1.2rem/1.125 "Roboto", Arial, sans-serif;
+}
+.texto-p4 {
+  font: 400 1.3rem/1.125 "Poppins", sans-serif;
+}
+.texto-pb {
+  font: 500 1.2rem/1.125 "Roboto", Arial, sans-serif;
+}
+.texto-pb-600 {
+  font: 600 1.2rem/1.125 "Poppins", Arial, sans-serif;
+}
+.texto-p-p {
+  font: 400 1rem/1.125 "Poppins", sans-serif;
+}
+.texto-p-p-b {
+  font: 500 1.1rem/1.125 "Roboto", sans-serif;
+}
+.texto-m {
+  font: 600 2rem/1.125 "Poppins", sans-serif;
+}
+.texto-ppp {
+  font: 400 0.8rem/1.125 "Poppins", sans-serif;
+}
+.m-bottom {
+  margin-bottom: 10px;
+}
+
+.link {
+  font: 500 1.2rem/1.125 "Roboto", Arial, sans-serif;
+}
+
+/* Titulos internos */
+.titulo-int {
+  font: 400 1.5rem/1.5 "Poppins", Arial, sans-serif;
+}

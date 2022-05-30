@@ -1,0 +1,71 @@
+.cabecalho-bg {
+  background: var(--cor-12);
+}
+
+.cabecalho {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.cabecalho-menu a {
+  display: inline-block;
+  color: #fff;
+  padding: 16px 0px;
+  font-size: 18px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.cabecalho-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.cabecalho-menu a:hover::after,
+.cabecalho-menu a.ativo::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .cabecalho-menu {
+    padding: 0px;
+  }
+  .cabecalho-menu a {
+    background-color: var(--cor-c2);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .cabecalho-menu a:hover {
+    background-color: #2e2e2e;
+  }
+  .cabecalho-menu a::after {
+    display: none;
+  }
+}
+@media (max-width: 470px) {
+  .cabecalho-menu {
+    gap: 10px;
+  }
+  .cabecalho-menu a {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}

@@ -1,0 +1,39 @@
+.termos-bg {
+  background: var(--cor-c2);
+  color: var(--cor-0);
+}
+.termos {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.termos p {
+  margin-bottom: 4px;
+}
+
+.condicoes {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.condicoes h2 {
+  margin-bottom: 20px;
+}
+.condicoes p {
+  max-width: 75ch;
+  margin-bottom: 24px;
+}
+.condicoes p + h2 {
+  margin-top: 40px;
+}
+@media (max-width: 600px) {
+  .condicoes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .termos h1 {
+    font-size: 2rem;
+  }
+  .termos p {
+    font-size: 1rem;
+    text-transform: lowercase;
+  }
+}
